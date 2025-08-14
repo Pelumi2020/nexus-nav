@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    font-family: sans-serif;
+    border: 2px solid grey;
+    box-shadow: 2px green;
+    outline: none;
+    border-radius: 10px;
+    
+}
+.nex{
+     border-right: 1px solid grey;
+
+}
+
+.logo{
+    border-bottom: 1px solid grey;
+    color: rgb(71, 71, 194);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo h1{
+    padding: 13.5px !important;
+}
+
+/* nav > div{
+    background: yellow;
+} */
+
+
+.nex h1{
+    padding:5px ;
+}
+.rnex{
+    width: 80%;
+}
+
+
+input{
+    border-radius: 5px;
+    border-color: whitesmoke;
+    font-size: 10px;
+    width: 200px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 5px;
+    
+}
+
+.content-holder{
+    border-bottom: 1px solid grey;
+}
+.content-holder i{
+    margin-right: 5px;
+}
+
+.content{
+    list-style: none;
+    margin:20px 15px;
+}
+
+.content h5{
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.content li{
+    padding:10px 0 ;
+}
+hr{
+    width: 240px;
+    color: gray;
+}
+
+.content2{
+    list-style: none;
+    margin: 20px 15px;
+    padding-bottom: 9px;
+    
+}
+.content2 h5{
+    margin-bottom: 10px;
+    color: grey;
+}
+.content2 li{
+    padding: 10px 0;
+}
+
+.content3{
+    list-style: none;
+    margin: 20px 15px;
+    padding-bottom: 9px;
+   
+}
+.content3 h5{
+    margin-bottom: 10px;
+    color: grey;
+}
+.content3 li{
+    padding: 10px 0;
+}
+
+.content4{
+    margin-top: 90px;
+    align-items: center;
+
+}
+.content4 i{
+    padding: 8px 2px;
+    margin-left: 10px;
+    font-size: larger;
+}
+.content4 > div{
+    width: 40px;
+}
+button{
+    width:190px ;
+}
+
+.container{
+    width: 100%;
+ 
+}
+
+.top-bar{
+    display: flex;
+    padding: 12.5px 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    box-shadow: 3px green;
+    
+
+}
+.bia{
+    margin-right:10px;
+}
+
+.bio{
+    display: flex;
+    align-items: center;
+}
+.bio h3{
+    font-size: 10px;
+}
+.icons-logo{
+    border-right: 2px solid grey;
+    margin-right: 30px;
+    
+}
+.icons-logo i{
+    margin: 0px 10px;
+}
+.second-container{
+    margin: 20px;
+}
+.first-div{
+    display: flex;
+    justify-content: space-between;
+}
+.first-div h1{
+    font-size:20px;
+    margin: 10px;
+}
+
+.date{
+    background: white;
+    display: flex;
+}
+.date button{
+    width: 60px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+}
+button i{
+    margin: 2px;
+}
+button.bt{
+    width: 50px;
+    background-color: aqua;
+    color: skyblue;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+button.bu{
+    width: 50px;
+    background-color: pink;
+    color: red;
+    border: none;
+    border-radius: 5px;
+
+    margin-left: 40px;
+}
+
+button.btn{
+    width: 160px;
+}
+.second-div{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.second-div > div{
+    border:10px solid whitesmoke;
+    background-color: whitesmoke;
+    width: 190px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.second-div span{
+    font-size: 20px;
+}
+.mini-sec{
+    display: flex;
+    margin-bottom: 14px;
+}
+.mini-sec h3{
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.mini{
+    padding: 0px;
+}
+.mini span{
+ padding:9px 3px;
+}
+
+.third-div{
+    display: flex;
+    margin: 20px;
+}
+.third-div img{
+    width: 80%;
+    border-radius: 5px;
+}
+.fourth-div{
+    display: flex;
+    width: 80%;
+}
+.fourth-div img{
+    width: 100%;
+}
+
+
+.search-container {
+  position: relative;
+  width: 300px;
+}
+
+.search-container input[type="text"] {
+  width: 100%;
+  padding: 5px 0px 5px 35px; 
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-container .fa-search {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+  pointer-events: none; 
+}
+
+
+
+input{
+    border-radius: 5px;
+    border-color: whitesmoke;
+    font-size: 10px;
+    width: 200px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 5px;
+    
+}
